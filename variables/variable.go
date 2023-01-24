@@ -12,8 +12,12 @@ func Variables() {
 	var doubleNum float64 = 56.7
 	var intVar int = 444
 	var int64Var int = 5
+	var unsignedVar uint = 7
+	var boolVar bool = true
+	var complexVar complex64 = 65 + 2i
+	var runeVar rune = 'h'
 	/* =========================== =====|| Print to console all variables ||================================ */
-	fmt.Println(stringVar, floatNum, doubleNum, intVar, int64Var)
+	fmt.Println(stringVar, floatNum, doubleNum, intVar, int64Var, unsignedVar, boolVar, complexVar, runeVar)
 	// /* ================================|| integer conver to string  ||================================ */
 	int2str := strconv.Itoa(int64Var)
 	fmt.Printf("variable type %v", int2str)
